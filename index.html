@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="resey" href="assets/normalize.css">
+    <link rel="reset" href="assets/normalize.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <main>
@@ -16,24 +16,34 @@
 
             <nav class="nav_bar">
                 <ul>
-                    <div>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">EMAIL</a></li>
-                        <li><a href="https://github.com/Wartech93">Github</a></li>
-                        <li><a href="#">Home</a></li>
-                    </div>
+                    <a href="#">About Me</a>
+                    <a href="#">EMAIL</a>
+                    <a href="https://github.com/Wartech93">Github</a>
+                    <a href="#">Home</a>
                 </ul>
             </nav>
         </header>
-        <section class="bgimage" id="home">
+        <section class="bgimage">
             <div class="container">
                 <div class="row">
-                    <h2 class="hero_title">About Me</h2>
-                    <p class="hero_desc">I am a web developer in Bethlehem, Pennsylvania</p>
+                    <h2 class="hero_title" id="hero_sty">About Me</h2>
+                <aside>
+                    <p id="hero_text">I am a web developer in Bethlehem, Pennsylvania. I currently work at a Nissan dealership, 
+                        detailing cars. My hobbies are: gaming, playing guitar, and drawing. I also like to do tattoos!
+                        I am looking forward to learning more about web design! 
+                    </p>
+                </aside>
+                    <div class="background">
+                        <img src="assets/brz.jpg" alt="Subaru_BRZ" id="hero_img">
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="articles">
+            <div>
+            <h3>Ghost Hunting</h3>   
+            </div>             
+        </section>
     </body>
 </main>
-
 </html>
