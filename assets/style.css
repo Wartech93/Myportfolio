@@ -4,14 +4,16 @@ body {
     background-image: url("fern.jpg");
     background-position: center;
     background-attachment: fixed;
-}
+    }
 
 header {
     display: flex;
     height: 150px;
     background-color: blue;
-    background-image: linear-gradient(to right, blue, yellow);
+    background-image: url();
     border-radius: 10px;
+    background-color: blue;
+    background-image: linear-gradient(to right, blue, yellow);
 }
 
 /* My Name */
@@ -26,7 +28,9 @@ header {
     box-shadow: 5px 5px 8px 5px;
     border-radius: 10px;
 }
-
+img {
+    border-radius: 10px;
+}
 .title:hover {
     color: white;
     cursor: default;
@@ -123,32 +127,34 @@ nav a:hover {
 .auto_pics {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 5px;
+    justify-content: space-evenly;
+   
 }
 
 .hero_img {
     display: flex;
+    flex-wrap: flex;
     width: 45%;
     height: 40%;
     margin-left: 20px;
-    margin-right: .5%
+    
 }
 
 .hero_img2 {
     display: flex;
     width: 50.3%;
     height: 30%;
-    margin-left: .5%;
-
+    
 }
 
 /* overlay text for hero image */
 .auto_detail {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     position: absolute;
     font-size: 30px;
-    left: 1004px;
+    margin-left: -375px;
     color: white;
     background-color: rgb(128, 128, 128, .8);
     border-radius: 5px;
@@ -157,7 +163,7 @@ nav a:hover {
     display: flex;
     position: absolute;
     font-size: 30px;
-    left: 1274px;
+    margin-left: -1279px;
     color: white;
     background-color: rgb(128, 128, 128, .8);
     border-radius: 5px;
@@ -177,8 +183,9 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
+    padding-bottom: 10px;
 }
 
 /*card 1 image sizing */
