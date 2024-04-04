@@ -16,6 +16,12 @@ header {
     background-color: blue;
     background-image: linear-gradient(to right, blue, yellow);
 }
+img { 
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-top: 20%;
+    }
 
 /* My Name */
 .title {
