@@ -28,7 +28,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-shrink: 1;
     height: 30%;
     width: 10%;  
     padding: 1%;
