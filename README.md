@@ -30,6 +30,6 @@ Ran multiple tests in order to get everything aligned properly.
 ## Links
 GitHub
 
-https://github.com/Wartech93/Myportfolio.git
+https://github.com/Wartech93/Royce_Porfolio.git
 
-Web Page Link: https://wartech93.github.io/Myportfolio/
+Web Page Link: https://wartech93.github.io/Royce_Portfolio/
