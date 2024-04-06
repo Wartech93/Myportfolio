@@ -49,6 +49,7 @@ img {
 /* nav bar list */
 .nav_bar {
     display: flex;
+    flex-wrap: wrap;
     gap: 20%;
     justify-content: center;
     align-content: center;
